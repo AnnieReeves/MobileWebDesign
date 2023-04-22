@@ -1,0 +1,35 @@
+:root {
+    --bs-primary: #40E0D0 !important;
+    --bs-primary-rgb: 64, 224, 208 !important;
+}
+
+.btn-primary {
+    --bs-btn-bg: #40E0D0;
+    --bs-btn-border-color: #40E0D0;
+    --bs-btn-disabled-bg: #40E0D0;
+    --bs-btn-disabled-border-color: #40E0D0;
+  }
+
+header.payhead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/coins.png"); */
+  background: url("../assets/img/coins.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 3.5em;
+}
+
+.state {
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 1.5em;
+}
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Lora', serif; */
